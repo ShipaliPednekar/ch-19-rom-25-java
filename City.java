@@ -1,12 +1,47 @@
 class City {
-	public static void main(String[] args) {
-    String pinCodes[] = {"110001", "400001", "560001", "600001","700001", "500001", "380001", "751001", "682001", "302001", "226001", "492001", "581301"  };
+	
+		/*static String mumbai = "Mumbai - 400001";
+		static String delhi = "Delhi - 110001";
+		static String bengaluru = "Bengaluru - 560001";
+		static String hyderabad = "Hyderabad - 500001";
+		static String chennai = "Chennai - 600001";
+		static String kolkata = "Kolkata - 700001";
+		static String pune = "Pune - 411001";
+		static String ahmedabad = "Ahmedabad - 380001";
+		static String jaipur = "Jaipur - 302001";
+		static String lucknow = "Lucknow - 226001";
+		static String bhopal = "Bhopal - 462001";
+		static String patna = "Patna - 800001";
+		static String chandigarh = "Chandigarh - 160001";
 
-  
-    System.out.println("Indian City PIN Codes:");
-	for(String pinCode : pinCodes){
-		System.out.println(pinCode);
-	}
-    //System.out.println(pinCodes[0] + " " + pinCodes[1] + " " + pinCodes[2] + " " + pinCodes[3] + "  " + pinCodes[4] + " " + pinCodes[5] + " " + pinCodes[6] + " " + pinCodes[7] + "  " + pinCodes[8] + "  " + pinCodes[9] + "  " + pinCodes[10] + " " + pinCodes[11] + "  " + pinCodes[12]);
-  }
+		static String cityPincodes[] = {mumbai, delhi, bengaluru, hyderabad, chennai, kolkata, pune, ahmedabad, jaipur, lucknow, bhopal, patna, chandigarh};
+	*/
+
+    public static void main(String[] pincodes) {
+		
+		String mumbai = "Mumbai - 400001";
+		String delhi = "Delhi - 110001";
+		String bengaluru = "Bengaluru - 560001";
+		String hyderabad = "Hyderabad - 500001";
+		String chennai = "Chennai - 600001";
+		String kolkata = "Kolkata - 700001";
+		String pune = "Pune - 411001";
+		String ahmedabad = "Ahmedabad - 380001";
+		String jaipur = "Jaipur - 302001";
+		String lucknow = "Lucknow - 226001";
+		String bhopal = "Bhopal - 462001";
+		String patna = "Patna - 800001";
+		String chandigarh = "Chandigarh - 160001";
+
+		String cityPincodes[] = {mumbai, delhi, bengaluru, hyderabad, chennai, kolkata, pune, ahmedabad, jaipur, lucknow, bhopal, patna, chandigarh};
+		System.out.println("Main Started");
+		System.out.println("The pincode: " +cityPincodes.length);
+		for(String cityPincode : cityPincodes)
+			System.out.println(cityPincode);
+		
+        
+		System.out.println(cityPincodes[0] + " " + cityPincodes[1] + " " + cityPincodes[2] + " " + cityPincodes[3] + " " + cityPincodes[4] + " " + cityPincodes[5] + " " + cityPincodes[6] + " " + cityPincodes[7] + " " + cityPincodes[8] + " " + cityPincodes[9] + " " + cityPincodes[10] + " " + cityPincodes[11] + " " + cityPincodes[12]);
+        System.out.println("Main Ended");
+		
+}
 }
