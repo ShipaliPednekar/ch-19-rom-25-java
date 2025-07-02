@@ -420,7 +420,7 @@ System.out.println(continentalandPastas[0] + " " + continentalandPastas[1] + " "
 System.out.println(chineseMenus[0] + " " + chineseMenus[1] + " " + chineseMenus[2] + " " + chineseMenus[3] );
 System.out.println(italianMenus[0] + " " + italianMenus[1] + " " + italianMenus[2] + " "  );
 System.out.println(maharastrianMenus[0] + " " + maharastrianMenus[1] + " " + maharastrianMenus[2] );
-System.out.println(bakeryMenus[0] + " " + bakeryMenus[1] + " " + bakeryMenus[2] + " " + bakeryMenus[3] + " " + bakeryMenus[4] );
+System.out.println(bakeryMenus[0] + " " + bakeryMenus[1] + " " + bakeryMenus[2]);
 System.out.println(rajasthaniMenus[0] + " " + rajasthaniMenus[1] + " " + rajasthaniMenus[2] + " " + rajasthaniMenus[3]);
 System.out.println(gujaratiMenus[0] + " " + gujaratiMenus[1] + " " + gujaratiMenus[2] + " " + gujaratiMenus[3]);
 System.out.println(breakfastMenus[0] + " " + breakfastMenus[1] + " " + breakfastMenus[2] + " " + breakfastMenus[3] + " " + breakfastMenus[4] );
@@ -432,7 +432,7 @@ System.out.println(keralaMenus[0] + " " + keralaMenus[1] + " " + keralaMenus[2] 
 System.out.println(healthyMenus[0] + " " + healthyMenus[1] + " " + healthyMenus[2] + " " + healthyMenus[3] );
 System.out.println(beverages[0] + " " + beverages[1]  );
 System.out.println(cakes[0] );
-System.out.println(drinks[0] + " " + drinks[1] + " " +  drinks[2] + " " +  drinks[3]);
+System.out.println(drinks[0] + " " + drinks[1]);
 System.out.println(desserts[0] + " " + desserts[1] + " " +  desserts[2] + " " +  desserts[3]);
 System.out.println("Main Ended"); 
 } 

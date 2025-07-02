@@ -16,8 +16,10 @@ public static void main(String[] args) {
    String fusionDrinks[] = {"Mango Lassi", "Orange Mint Cooler", "Strawberry Lemonade", "Coconut Coffee", "Rose Milk"};
    String hotDrinks[] = {"Hot Chocolate", "Masala Chai", "Herbal Tea", "Green Tea", "Ginger Tea"};
   String mocktails[] = {"Blue Lagoon", "Virgin Mojito", "Fruit Sangria", "Sunset Cooler", "Pina Colada"};
-  
- System.out.println("Juice Shop");
+ 
+
+System.out.println("Main Started"); 
+System.out.println("Juice Shop");
 for(String fruitJuice : fruitJuices){
 System.out.println(fruitJuice);
 }	
@@ -65,20 +67,21 @@ System.out.println(mocktail);
 }	
 
   
-    //System.out.println(fruitJuices[0] + " " + fruitJuices[1] + " " + fruitJuices[2]);
-    //System.out.println(vegetableJuices[0] + " " + vegetableJuices[1] + " " + vegetableJuices[2]);
-    //System.out.println(milkshakes[0] + " " + milkshakes[1] + " " + milkshakes[2]);
-    //System.out.println(smoothies[0] + " " + smoothies[1] + " " + smoothies[2]);
-   // System.out.println(energyDrinks[0] + " " + energyDrinks[1] + " " + energyDrinks[2]);
-    //System.out.println(icedDrinks[0] + " " + icedDrinks[1] + " " + icedDrinks[2]);
-   // System.out.println(detoxDrinks[0] + " " + detoxDrinks[1] + " " + detoxDrinks[2]);
-   // System.out.println(seasonalDrinks[0] + " " + seasonalDrinks[1] + " " + seasonalDrinks[2]);
-    //System.out.println(bottledJuices[0] + " " + bottledJuices[1] + " " + bottledJuices[2]);
-    //System.out.println(proteinDrinks[0] + " " + proteinDrinks[1] + " " + proteinDrinks[2]);
-   // System.out.println(traditionalDrinks[0] + " " + traditionalDrinks[1] + " " + traditionalDrinks[2]);
-    //System.out.println(kidsSpecial[0] + " " + kidsSpecial[1] + " " + kidsSpecial[2]);
-    //System.out.println(fusionDrinks[0] + " " + fusionDrinks[1] + " " + fusionDrinks[2]);
-    //System.out.println(hotDrinks[0] + " " + hotDrinks[1] + " " + hotDrinks[2]);
-    //System.out.println(mocktails[0] + " " + mocktails[1] + " " + mocktails[2]);
+    System.out.println(fruitJuices[0] + " " + fruitJuices[1] + " " + fruitJuices[2]);
+    System.out.println(vegetableJuices[0] + " " + vegetableJuices[1] + " " + vegetableJuices[2]);
+    System.out.println(milkshakes[0] + " " + milkshakes[1] + " " + milkshakes[2]);
+    System.out.println(smoothies[0] + " " + smoothies[1] + " " + smoothies[2]);
+    System.out.println(energyDrinks[0] + " " + energyDrinks[1] + " " + energyDrinks[2]);
+    System.out.println(icedDrinks[0] + " " + icedDrinks[1] + " " + icedDrinks[2]);
+    System.out.println(detoxDrinks[0] + " " + detoxDrinks[1] + " " + detoxDrinks[2]);
+    System.out.println(seasonalDrinks[0] + " " + seasonalDrinks[1] + " " + seasonalDrinks[2]);
+    System.out.println(bottledJuices[0] + " " + bottledJuices[1] + " " + bottledJuices[2]);
+    System.out.println(proteinDrinks[0] + " " + proteinDrinks[1] + " " + proteinDrinks[2]);
+    System.out.println(traditionalDrinks[0] + " " + traditionalDrinks[1] + " " + traditionalDrinks[2]);
+    System.out.println(kidsSpecial[0] + " " + kidsSpecial[1] + " " + kidsSpecial[2]);
+    System.out.println(fusionDrinks[0] + " " + fusionDrinks[1] + " " + fusionDrinks[2]);
+    System.out.println(hotDrinks[0] + " " + hotDrinks[1] + " " + hotDrinks[2]);
+    System.out.println(mocktails[0] + " " + mocktails[1] + " " + mocktails[2]);
+   System.out.println("Main Ended");
   }
 }
